@@ -1,6 +1,3 @@
-
-Viewed
-@@ -0,0 +1,21 @@
 class Genre
 
   attr_reader :name, :genre
