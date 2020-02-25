@@ -7,7 +7,6 @@ class Genre
   def initialize(name,genre)
     @name = name
     @genre = genre 
-    @@all << genre 
   end
 
   def songs
