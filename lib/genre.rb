@@ -4,8 +4,10 @@ class Genre
   attr_reader :name, :genre
   attr_accessor :song
 
-  def initialize(name)
+  def initialize(name,genre)
     @name = name
+    @genre = genre 
+    @@all << genre 
   end
 
   def songs
