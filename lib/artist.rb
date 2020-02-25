@@ -24,8 +24,8 @@ class Artist
   end
   
   def genres 
-    songs.select do |genre|
-      puts genre
+    Song.all.map do |genre|
+      song.genre 
     end
     
   end
